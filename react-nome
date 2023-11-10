@@ -1,0 +1,12 @@
+import React from 'react';
+import './App.css';
+
+funcion App() {
+  return (
+    <div>
+      <h1> Meu nome é Richard </h1>
+    </div>
+  );
+}
+
+export default App;
