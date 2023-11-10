@@ -1,0 +1,29 @@
+bash:
+npx create-react-app meu-projeto-react
+cd meu-projeto-react
+
+jsx:
+import React from 'react';
+import './App.css';
+
+funcion HelloWorld() {
+  return (
+    <div>
+      <h1> Olá, Mundo! </h1>
+    </div>
+  );
+}
+export default HelloWorld;
+
+
+css:
+body {
+  text-align: center;
+}
+h1{
+  color: #007bff;
+}
+
+
+bash:
+npm start
